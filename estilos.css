@@ -1,51 +1,25 @@
-P {
+body {
+    background-color : #006600;    
+}
 
-    font-size : 12pt;
-    
-    font-family : arial,helvetica;
-    
-    font-weight : normal;
-    
-    }
-    
-     
-    
-    H1 {
-    
-    font-size : 36pt;
-    
-    font-family : verdana,arial;
-    
-    text-decoration : underline;
-    
-    text-align : center;
-    
-    background-color : Teal;
-    
-    }
-    
-     
-    
-    TD {
-    
-    font-size : 10pt;
-    
-    font-family : verdana,arial;
-    
-    text-align : center;
-    
-    background-color : 666666;
-    
-    }
-    
-     
-    
-    BODY {
-    
-    background-color : #006600;
-    
-    font-family : arial;
-    
-    color : White;
-    
-    }
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+a.nav-texto {
+    color: blueviolet;
+}
+a.nav-comprar {
+    color: green;
+}
+img.img-header {
+    width: 25%;
+    height: 25%;
+}
+
+img.img-body {
+    width: auto;
+    height: 200px;
+}
