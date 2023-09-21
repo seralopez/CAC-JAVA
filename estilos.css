@@ -20,6 +20,6 @@ img.img-header {
 }
 
 img.img-body {
-    width: auto;
-    height: 200px;
+    width: 50%;
+    height: 75%;
 }
