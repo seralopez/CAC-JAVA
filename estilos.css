@@ -4,12 +4,7 @@
 a {
     text-decoration: none;
 }
-a.nav-texto {
-    color: blueviolet;
-}
-a.nav-comprar {
-    color: green;
-}
+
 img.img-header {
     width: 25%;
     height: 25%;
