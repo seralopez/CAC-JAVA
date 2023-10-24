@@ -5,7 +5,11 @@ a {
     text-decoration: none;
 }
 
-
+.btn-verde{
+    width: 100%;
+    color:white;
+    background-color:rgb(150, 201, 62)
+}
 
 .respon {
     width: 50%;
