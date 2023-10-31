@@ -14,25 +14,47 @@
   <link rel="stylesheet" href="estilos.css">
 </head>
 <header>
-  <nav class="navbar bg-dark" data-bs-theme="dark">
+<nav class="navbar bg-dark menu-desk" data-bs-theme="dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
         <img src="./images/codoacodo.png" alt="CaC Logo" class="img-header">
         Conf Bs As
       </a>
       <div class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
-        <a class="me-3 py-2 link-light" href="#myCarousel">La conferencia</a>
-        <a class="me-3 py-2 link-secondary" href="#oradores">Los oradores</a>
-        <a class="me-3 py-2 link-secondary" href="#lugar">El lugar y la fecha</a>
-        <a class="me-3 py-2 link-secondary" href="#orador">Conviértete en orador</a>
+        <a class="me-3 py-2 link-secondary" href="./index.html#conferencia">La conferencia</a>
+        <a class="me-3 py-2 link-secondary" href="./index.html#oradores">Los oradores</a>
+        <a class="me-3 py-2 link-secondary" href="./index.html#lugar">El lugar y la fecha</a>
+        <a class="me-3 py-2 link-secondary" href="./index.html#orador">Conviértete en orador</a>
         <a class="me-3 py-2 link-success" href="./tickets.html">Comprar tickets</a>
       </div>
     </div>
   </nav>
+
+  <nav class="navbar navbar-dark bg-dark menu-movil" data-bs-theme="dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        <a>
+          <img src="./images/codoacodo.png" alt="CaC Logo" class="img-header">
+          Conf Bs As
+        </a>
+      </button>
+    </div>
+  </nav>
+  
+  <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+    <div class="bg-dark p-4">
+      <p class="me-3 py-2 link-secondary" href="./index.html#conferencia">La conferencia</p>
+      <p class="me-3 py-2 link-secondary" href="./index.html#oradores">Los oradores</p>
+      <p class="me-3 py-2 link-secondary" href="./index.html#lugar">El lugar y la fecha</p>
+      <p class="me-3 py-2 link-secondary" href="./index.html#orador">Conviértete en orador</p>
+      <p class="me-3 py-2 link-success" href="./tickets.html">Comprar tickets</p>
+    </div>
+  </div>
 </header>
 
 <body>
-  <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+  <div id="conferencia" class="carousel slide mb-6" data-bs-ride="carousel">
     <div class="carousel-inner text-end">
       <div class="carousel-item active text-end">
         <img src="./images/ba1.jpg" class="d-block w-90"

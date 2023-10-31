@@ -14,7 +14,23 @@ a {
 @media (max-width:500px) {
     
     .div-margin {
-        margin: 55px;
+        margin: 5px;
+    }
+    .menu-desk{
+        display: none;
+    }
+    .menu-movil{
+        display: block;
+    }
+}
+
+@media (min-width:500px) {
+    
+    .menu-desk{
+        display: block;
+    }
+    .menu-movil{
+        display: none;
     }
 }
 
