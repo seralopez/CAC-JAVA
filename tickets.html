@@ -11,14 +11,16 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
-  <script src="./java.js" defer></script>
-  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="./assets/css/estilos.css">
+  <link rel="shortcut icon" href="./assets/favicon.ico" />
+  <script src="./assets/js/script.js" defer></script>
+
 </head>
 <header>
-  <nav class="navbar bg-dark" data-bs-theme="dark">
+<nav class="navbar bg-dark menu-desk" data-bs-theme="dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="./images/codoacodo.png" alt="CaC Logo" class="img-header">
+      <a class="navbar-brand" href="./index.html">
+        <img src="./assets/images/codoacodo.png" alt="CaC Logo" class="img-header">
         Conf Bs As
       </a>
       <div class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
@@ -30,6 +32,28 @@
       </div>
     </div>
   </nav>
+
+  <nav class="navbar navbar-dark bg-dark menu-movil" data-bs-theme="dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        <a>
+          <img src="./assets/images/codoacodo.png" alt="CaC Logo" class="img-header">
+          Conf Bs As
+        </a>
+      </button>
+    </div>
+  </nav>
+  
+  <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+    <div class="bg-dark p-4">
+      <p class="me-3 py-2 link-secondary" href="./index.html#conferencia">La conferencia</p>
+      <p class="me-3 py-2 link-secondary" href="./index.html#oradores">Los oradores</p>
+      <p class="me-3 py-2 link-secondary" href="./index.html#lugar">El lugar y la fecha</p>
+      <p class="me-3 py-2 link-secondary" href="./index.html#orador">Conviértete en orador</p>
+      <p class="me-3 py-2 link-success" href="./tickets.html">Comprar tickets</p>
+    </div>
+  </div>
 </header>
 
 <body>
