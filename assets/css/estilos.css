@@ -1,35 +1,39 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 a {
     text-decoration: none;
 }
 
-.btn-verde{
+.btn-verde {
     width: 100%;
-    color:white;
-    background-color:rgb(150, 201, 62)
+    color: white;
+    background-color: rgb(150, 201, 62)
 }
 
 @media (max-width:500px) {
-    
+
     .div-margin {
         margin: 5px;
     }
-    .menu-desk{
+
+    .menu-desk {
         display: none;
     }
-    .menu-movil{
+
+    .menu-movil {
         display: block;
     }
 }
 
 @media (min-width:500px) {
-    
-    .menu-desk{
+
+    .menu-desk {
         display: block;
     }
-    .menu-movil{
+
+    .menu-movil {
         display: none;
     }
 }
@@ -50,7 +54,7 @@ img.img-cien {
 }
 
 h6.texto-centro {
-    line-height:30px;
+    line-height: 30px;
 }
 
 .carousel-caption {
@@ -63,21 +67,20 @@ h6.texto-centro {
     padding-bottom: 20%;
     color: #fff;
     text-align: center;
-  }
-  
-  body {
-    max-width: 100%;
-  }
+}
 
-  img {
+body {
+    max-width: 100%;
+}
+
+img {
     max-width: 100%;
     height: auto;
-  }
-  
-  /* Hace que los elementos se ajusten a diferentes tamaños de pantalla */
-  @media screen and (max-width: 600px) {
+}
+
+@media screen and (max-width: 600px) {
     .carousel-caption {
         padding-top: 10%;
         padding-bottom: 10%;
-      }
-  }
+    }
+}
